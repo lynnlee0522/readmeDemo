@@ -1,0 +1,33 @@
+type: prompt
+parameters:
+  - id: 5IOqRb44RAZhHN-NtY_31
+    type: string
+    key: question
+  - id: 1E7lv6bMdYe2jYzkn2F7z
+    key: chatHistory
+    type: source
+    source:
+      variableFrom: history
+      chatHistory:
+        limit: 50
+        keyword: ""
+prompts:
+  - type: message
+    data:
+      id: 3mppNFvHVjj_1HJDPKzv8
+      role: user
+      content: "{{ question }}"
+  - type: message
+    data:
+      id: 20240609165619-hfiDnV
+      role: system
+      content: you should answer the question use user's lauguage
+outputVariables:
+  - id: _vr2J3UUesHTi10LnI0eQ
+    name: $text
+id: 20240606230614-qKWYLK
+createdAt: 2024-06-06T15:06:14.260Z
+updatedAt: 2024-06-06T15:06:14.260Z
+createdBy: z1kJspYpU3EgZKH8BomzcSUjujT23j5vsMq
+updatedBy: z1kJspYpU3EgZKH8BomzcSUjujT23j5vsMq
+name: Unnamed Agent
