@@ -2,10 +2,10 @@ id: "453937645043580928"
 name: demo2
 model: gpt-4o
 createdAt: 2024-06-06T15:06:08.333Z
-updatedAt: 2024-06-09T09:01:42.919Z
+updatedAt: 2024-06-09T09:23:57.460Z
 createdBy: z1kJspYpU3EgZKH8BomzcSUjujT23j5vsMq
 updatedBy: z1kJspYpU3EgZKH8BomzcSUjujT23j5vsMq
-temperature: 1.4
+temperature: 1.5
 topP: 0.5
 presencePenalty: 1.1
 frequencyPenalty: 1.1
