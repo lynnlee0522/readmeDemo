@@ -21,7 +21,7 @@ prompts:
     data:
       id: 20240609165619-hfiDnV
       role: system
-      content: you should answer the question use user's lauguage, please.
+      content: you should answer the question use user's lauguage, please..
 outputVariables:
   - id: _vr2J3UUesHTi10LnI0eQ
     name: $text
